@@ -1,4 +1,4 @@
-const contadorTexto = document.querySelector('#contador');
+const contadorTexto = document.getElementById('contador');
 
 const incrementar = document.querySelector('#incrementar');
 const reiniciar = document.querySelector('#reiniciar');
