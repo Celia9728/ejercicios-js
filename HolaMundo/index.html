@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Hola Mundo</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      div {
+        display: none;
+        background-color: rgba(66, 118, 169, 0.47);
+        border: 1px solid black;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        text-align: center;
+      }
+
+      #cerrar {
+        background-color: cyan;
+        border: none;
+        border-radius: 50%;
+        height: 5px;
+        width: 5px;
+        box-sizing: border-box;
+        font-size: 3px;
+      }
+    </style>
+
+    <script
+      type="module"
+      src="main.js"
+    ></script>
+  </head>
+  <body>
+    <button type="button">Hola</button>
+    <div id="texto">
+      <button
+        type="button"
+        id="cerrar"
+      >
+        X
+      </button>
+      <p>¡Hola Mundo!</p>
+    </div>
+  </body>
+</html>

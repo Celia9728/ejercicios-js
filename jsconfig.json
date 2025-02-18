@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "checkJs": true,
+    "strict": true,
+    "noEmit": true,
+    "lib": ["esnext", "dom", "WebWorker"],
+    "baseUrl": ".",
+    "paths": {
+      "#*": ["./packages/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
